@@ -1,5 +1,5 @@
 # FIREX
-The Telegram Most Safest Maintained Userbot using Telethon
+The Telegram Most Safest Maintained Userbot using Telethon. This is also completely opensource project.
 <p align="center">
    
    <a href="https://github.com/TeamEviral/Fire-X">
