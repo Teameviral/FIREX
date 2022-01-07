@@ -5,10 +5,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $eviral_REPO == "FIREX" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1ldmlyYWwvRklSRVhVU0VSQk9UL2FyY2hpdmUvcmVmcy9oZWFkcy9tYWluLnppcA==" | base64 -d
     elif [[ $eviral_REPO == "FIREX" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1ldmlyYWwvRklSRVhVU0VSQk9UL2FyY2hpdmUvcmVmcy9oZWFkcy9tYWluLnppcA==" | base64 -d
     elif [[ $eviral_REPO =~ $regex ]]
     then
         if [[ $eviral_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_repolink () {
             echo "${eviral_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1ldmlyYWwvRklSRVhVU0VSQk9UL2FyY2hpdmUvcmVmcy9oZWFkcy9tYWluLnppcA==" | base64 -d
     fi
 }
 
