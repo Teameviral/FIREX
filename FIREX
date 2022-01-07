@@ -15,7 +15,7 @@ _get_repolink () {
         then
             echo "${eviral_REPO}/archive/${eviral_REPO_BRANCH}.zip"
         else
-            echo "${eviral_REPO}/archive/master.zip"
+            echo "${eviral_REPO}/archive/main.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RlYW1ldmlyYWwvRklSRVhVU0VSQk9UL2FyY2hpdmUvcmVmcy9oZWFkcy9tYWluLnppcA==" | base64 -d
