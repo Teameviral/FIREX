@@ -10,9 +10,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/eviral-OS/FIREX/",
-  "website": "https://github.com/eviral-OS/FIREX/",
-  "success_url": "https://t.me/eviral_Userbot",
+  "repository": "https://github.com/Teameviral/FIREX",
+  "website": "https://github.com/Teameviral/FIREX",
+  "success_url": "https://t.me/FirexUb",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
@@ -20,7 +20,7 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is eviral User",
-      "value": "Lêɠêɳ̃dẞøY",
+      "value": "eviral",
       "required": false
     },
     "ALIVE_MSG": {
@@ -50,12 +50,12 @@
     },
     "YOUR_GROUP": {
       "description": "Set Ur Group Username",
-      "value": "@eviral_Userbot",
+      "value": "@FIREXSUPPORT",
       "required": false
     },
     "YOUR_CHANNEL": {
       "description": "Set Ur Channel Username",
-      "value": "@Official_FIREX",
+      "value": "@FIREXUB",
       "required": false
     },
     "BOY_OR_GIRL": {
@@ -100,7 +100,7 @@
     },
     "PM_MSG": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "нєℓℓο ѕιя / мιѕѕ,\nρℓєαѕє ∂οи'τ τяγ το ѕραм мγ мαѕτєя οτнєяωιѕє υ ωιℓℓ ϐℓοϲκє∂ ϐγ 𝖑𝖊ɠêɳ̃dẞø✞︎ 🇮🇳.\nℑ ωιℓℓ яєρℓγ υ αƒτєя ϲοмє ϐαϲκ οиℓιиє,\nτнαиκγου!",
+      "value": "Dᴇᴀʀ Usᴇʀ, Tʜɪs ɪs Fɪʀᴇx Uʟᴛʀᴀ Pᴍ Pʀᴏᴛᴇᴄᴛɪᴏɴ Usᴇʀʙᴏᴛ. Wᴀɪᴛ ᴜɴᴛɪʟ I sᴇᴇ ʏᴏᴜʀ ᴘᴍ ᴀɴᴅ ᴀᴘᴘʀᴏᴠᴇ ʏᴏᴜ.  Dᴏɴ'ᴛ Sᴘᴀᴍ ɴᴇɪᴛʜᴇʀ ʙᴏᴛ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ʙʟᴏᴄᴋ ʏᴏᴜ.",
       "required": false
     },
     "MAX_FLOOD_IN_PM": {
@@ -109,7 +109,7 @@
       "required": true
     },
     "LOGGER_ID": {
-      "description": "Create a private channel. And get it's id from @missrose_bot and paste here. Value should start with -100",
+      "description": "Create a private group. And get it's id from @missrose_bot and paste here. Value should start with -100",
       "value": "",
       "required": true
     },
@@ -141,7 +141,7 @@
       "value": ""
     }, 
     "eviral_STRING": {
-      "description": "Get this value by running https://repl.it/@KrishnaJaiswal1/FIREX#main.py ",
+      "description": "Get this value by @SessionmAKEbOT ",
       "value": ""
     },
     "HEROKU_API_KEY": {
